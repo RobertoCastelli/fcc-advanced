@@ -1,0 +1,91 @@
+body {
+    background-color: #EFE4C0;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    font-family: monospace;
+    padding: 10px 10px;
+    color: #35485e;
+}
+
+button {
+    margin: 10px auto;
+    padding: 5px 5px;
+    color: #35485e;
+    background: none;
+    outline: none;
+}
+
+#btnTop {
+    border: none;
+}
+
+#btnTop:active {
+    transform: scale(1.2);
+    color: #41b882;
+}
+
+h2,
+footer,
+fieldset {
+   letter-spacing: 0.08em;
+   margin: 20px auto;
+}
+
+legend {
+    font-size: large;
+}
+
+img {
+    width: 100%;
+}
+
+ol,
+#description{
+    line-height: 20px;
+    text-align: start;
+}
+
+li:hover {
+    cursor: pointer;
+    color: black;
+    transform: translate(5px)
+}
+
+li:active {
+    transform: scaleZ(1.5);
+}
+
+figure {
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    margin: auto;
+    padding: 5px 5px;
+    display: none;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    100% {
+        display: block;
+        opacity: 1;
+    }
+}
+
+figcaption {
+    font-size: large;
+    font-weight: bold;
+}
+
+pre {
+    text-align: start;
+}
+
+
