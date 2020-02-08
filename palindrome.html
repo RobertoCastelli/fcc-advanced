@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- FONTAWSOME -->
+    <script src="https://kit.fontawesome.com/81b668545a.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
     <title>Palindrome</title>
 </head>
 
@@ -29,42 +35,32 @@
                 </div>
             </fieldset>
         </header>
+
+        <section>
+            <input type="text" id="txt_input" placeholder=" insert word">
+            <button>Check</button>
+            <p id="result"></p>
+        </section>
+
+        <section>
+            <button id="btnShow">SHOW CODE</button>
+
+            <figure id="solution">
+                <figcaption>SOLUTION</figcaption>
+                <pre>
+                    <code id="code"></code>
+                </pre>
+            </figure>
+
+            <button id="btnHome"><a href="index.html"><i class="fas fa-home fa-2x"></i></a></button>
+
+        </section>
+
+        <footer>
+            <p>copyright &copy; 2020 Roberto Castelli</p>
+            <p>www.robertocastelli.dev</p>
+        </footer>
     </div>
-
-
-    <style>
-        body {
-            background-color: #EFE4C0;
-            text-align: center;
-        }
-
-        h2,
-        footer,
-        fieldset {
-            letter-spacing: 0.08em;
-            margin: 20px auto;
-        }
-
-        legend {
-            font-size: large;
-        }
-
-        img {
-            width: 100%;
-        }
-
-        .container {
-            max-width: 400px;
-            margin: auto;
-            font-family: monospace;
-            padding: 10px 10px;
-            color: #35485e;
-        }
-
-        .content {
-            text-align: start;
-        }
-    </style>
 
 </body>
 
