@@ -3,6 +3,10 @@ body {
     text-align: center;
 }
 
+a{
+    all: unset;
+}
+
 .container {
     max-width: 400px;
     margin: auto;
@@ -21,6 +25,7 @@ button {
     color: #35485e;
     background: none;
     outline: none;
+    cursor: pointer;
 }
 
 #btnTop,
@@ -32,7 +37,8 @@ button {
 #btnTop:active,
 #btnHome:active {
     transform: scale(1.2);
-    color: #41b882;
+    color: teal;
+   
 }
 
 h2,
@@ -64,6 +70,7 @@ li:hover {
 
 li:active {
     transform: scaleZ(1.5);
+    color: teal;
 }
 
 figure {
