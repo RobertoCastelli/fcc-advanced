@@ -5,6 +5,7 @@ body {
 
 a{
     all: unset;
+    cursor: pointer;
 }
 
 .container {
@@ -63,7 +64,6 @@ ol,
 }
 
 li:hover {
-    cursor: pointer;
     color: black;
     transform: translate(5px)
 }
