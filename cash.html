@@ -1,66 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- FONTAWSOME -->
-    <script src="https://kit.fontawesome.com/81b668545a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/81b668545a.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Cash register</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <audio id="zip" src="sound/zip.wav"></audio>
     <div class="container">
-        <header>
-            <img src="img/bg.jpg" alt="img-header">
-            <fieldset>
-                <legend>CASH REGISTER</legend>
-                <div class="content">
-                    <p>Design a cash register drawer function checkCashRegister() that accepts purchase price as the first argument (price), payment as the second argument (cash), and cash-in-drawer (cid) as the third argument.</p>
-                    <p>cid is a 2D array listing available currency.</p>
-                    <p>The checkCashRegister() function should always return an object with a status key and a change key.</p>                        
-                    <p>Return {status: "INSUFFICIENT_FUNDS", change: []} if cash-in-drawer is less than the change due, or if you cannot return the exact change.</p>
-                    <p>Return {status: "CLOSED", change: [...]} with cash-in-drawer as the value for the key change if it is equal to the change due.</p>                        
-                    <p>Otherwise, return {status: "OPEN", change: [...]}, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.</p>
-                </div>
-            </fieldset>
-        </header>
+      <header>
+        <img src="img/bg.jpg" alt="img-header" />
+        <fieldset>
+          <legend>CASH REGISTER</legend>
+          <div class="content">
+            <p>
+              Design a cash register drawer function checkCashRegister() that
+              accepts purchase price as the first argument (price), payment as
+              the second argument (cash), and cash-in-drawer (cid) as the third
+              argument.
+            </p>
+            <p>cid is a 2D array listing available currency.</p>
+            <p>
+              The checkCashRegister() function should always return an object
+              with a status key and a change key.
+            </p>
+            <p>
+              Return {status: "INSUFFICIENT_FUNDS", change: []} if
+              cash-in-drawer is less than the change due, or if you cannot
+              return the exact change.
+            </p>
+            <p>
+              Return {status: "CLOSED", change: [...]} with cash-in-drawer as
+              the value for the key change if it is equal to the change due.
+            </p>
+            <p>
+              Otherwise, return {status: "OPEN", change: [...]}, with the change
+              due in coins and bills, sorted in highest to lowest order, as the
+              value of the change key.
+            </p>
+          </div>
+        </fieldset>
+      </header>
 
-        <section>
+      <!-- <section>
             <input type="text" id="txt_input" placeholder=" insert word">
             <button>Check</button>
             <p id="result"></p>
-        </section>
+        </section> -->
 
-        <section>
-            <button id="btnShow">SHOW CODE</button>
+      <section>
+        <button id="btnShow">SHOW CODE</button>
 
-            <figure id="solution">
-                <figcaption>SOLUTION</figcaption>
-                <pre>
-                    <code id="code"></code>
-                </pre>
-            </figure>
+        <figure id="solution">
+          <figcaption>SOLUTION</figcaption>
+          <pre>
+            <code id="code">
+              STILL WORKING ON IT...              
+            </code>
+          </pre>
+        </figure>
 
-            <button id="btnHome"><a href="index.html"><i class="fas fa-home fa-2x"></i></a></button>
+        <button id="btnHome">
+          <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+        </button>
+      </section>
 
-        </section>
-
-        <footer>
-            <p>copyright &copy; 2020 Roberto Castelli</p>
-            <p>www.robertocastelli.dev</p>
-        </footer>
+      <footer>
+        <p>copyright &copy; 2020 Roberto Castelli</p>
+        <p>www.robertocastelli.dev</p>
+      </footer>
     </div>
 
-    <script src="app.js"></script>
-
-</body>
-
+    <script src="components/app.js"></script>
+  </body>
 </html>

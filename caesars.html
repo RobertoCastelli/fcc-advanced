@@ -1,64 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- FONTAWSOME -->
-    <script src="https://kit.fontawesome.com/81b668545a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/81b668545a.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Caesars cipher</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <audio id="zip" src="sound/zip.wav"></audio>
     <div class="container">
-        <header>
-            <img src="img/bg.jpg" alt="img-header">
-            <fieldset>
-                <legend>CAESARS CIPHER</legend>
-                <div class="content">
-                    <p>One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount.</p>
-                    <p>A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus 'A' ↔ 'N', 'B' ↔ 'O' and so on.</p>
-                    <p>Write a function which takes a ROT13 encoded string as input and returns a decoded string.</p>                        
-                    <p>All letters will be uppercase. Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do pass them on.</p>
-                </div>
-            </fieldset>
-        </header>
+      <header>
+        <img src="img/bg.jpg" alt="img-header" />
+        <fieldset>
+          <legend>CAESARS CIPHER</legend>
+          <div class="content">
+            <p>
+              One of the simplest and most widely known ciphers is a Caesar
+              cipher, also known as a shift cipher. In a shift cipher the
+              meanings of the letters are shifted by some set amount.
+            </p>
+            <p>
+              A common modern use is the ROT13 cipher, where the values of the
+              letters are shifted by 13 places. Thus 'A' ↔ 'N', 'B' ↔ 'O' and so
+              on.
+            </p>
+            <p>
+              Write a function which takes a ROT13 encoded string as input and
+              returns a decoded string.
+            </p>
+            <p>
+              All letters will be uppercase. Do not transform any non-alphabetic
+              character (i.e. spaces, punctuation), but do pass them on.
+            </p>
+          </div>
+        </fieldset>
+      </header>
 
-        <section>
-            <input type="text" id="txt_input" placeholder=" insert word">
-            <button>Check</button>
-            <p id="result"></p>
-        </section>
+      <!-- <section>
+        <input type="text" id="txt_input" placeholder=" insert word" />
+        <button>Check</button>
+        <p id="result"></p>
+      </section> -->
 
-        <section>
-            <button id="btnShow">SHOW CODE</button>
+      <section>
+        <button id="btnShow">SHOW CODE</button>
 
-            <figure id="solution">
-                <figcaption>SOLUTION</figcaption>
-                <pre>
-                    <code id="code"></code>
-                </pre>
-            </figure>
+        <figure id="solution">
+          <figcaption>SOLUTION</figcaption>
+          <pre>
+            <code id="code">
+              STILL WORKING ON IT...              
+            </code>
+          </pre>
+        </figure>
 
-            <button id="btnHome"><a href="index.html"><i class="fas fa-home fa-2x"></i></a></button>
+        <button id="btnHome">
+          <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+        </button>
+      </section>
 
-        </section>
-
-        <footer>
-            <p>copyright &copy; 2020 Roberto Castelli</p>
-            <p>www.robertocastelli.dev</p>
-        </footer>
+      <footer>
+        <p>copyright &copy; 2020 Roberto Castelli</p>
+        <p>www.robertocastelli.dev</p>
+      </footer>
     </div>
 
-    <script src="app.js"></script>
-
-</body>
-
+    <script src="components/app.js"></script>
+  </body>
 </html>

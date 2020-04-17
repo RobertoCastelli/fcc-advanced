@@ -1,62 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- FONTAWSOME -->
-    <script src="https://kit.fontawesome.com/81b668545a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/81b668545a.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Roman converter</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <audio id="zip" src="sound/zip.wav"></audio>
     <div class="container">
-        <header>
-            <img src="img/bg.jpg" alt="img-header">
-            <fieldset>
-                <legend>ROMAN NUMERAL CONVERTER</legend>
-                <div class="content">
-                    <p>Convert the given number into a roman numeral.<p/>
-                    <p>All roman numerals answers should be provided in upper-case.</p>
-                </div>
-            </fieldset>
-        </header>
+      <header>
+        <img src="img/bg.jpg" alt="img-header" />
+        <fieldset>
+          <legend>ROMAN NUMERAL CONVERTER</legend>
+          <div class="content">
+            <p>Convert the given number into a roman numeral.</p>
+            <p />
+            <p>All roman numerals answers should be provided in upper-case.</p>
+          </div>
+        </fieldset>
+      </header>
 
-        <section>
-            <input type="text" id="txt_input" placeholder=" insert word">
-            <button>Check</button>
-            <p id="result"></p>
-        </section>
+      <!-- <section>
+        <input
+          type="number"
+          id="num_input"
+          placeholder="n°"
+          style="width: 50px; height: 30px;"
+        />
+        <button>Check</button>
+        <p id="result"></p>
+      </section> -->
 
-        <section>
-            <button id="btnShow">SHOW CODE</button>
+      <section>
+        <button id="btnShow">SHOW CODE</button>
 
-            <figure id="solution">
-                <figcaption>SOLUTION</figcaption>
-                <pre>
-                    <code id="code"></code>
-                </pre>
-            </figure>
+        <figure id="solution">
+          <figcaption>SOLUTION</figcaption>
+          <pre>
+            <code id="code">
+              STILL WORKING ON IT...   
+            </code>
+          </pre>
+        </figure>
 
-            <button id="btnHome"><a href="index.html"><i class="fas fa-home fa-2x"></i></a></button>
+        <button id="btnHome">
+          <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+        </button>
+      </section>
 
-        </section>
-
-        <footer>
-            <p>copyright &copy; 2020 Roberto Castelli</p>
-            <p>www.robertocastelli.dev</p>
-        </footer>
+      <footer>
+        <p>copyright &copy; 2020 Roberto Castelli</p>
+        <p>www.robertocastelli.dev</p>
+      </footer>
     </div>
 
-    <script src="app.js"></script>
-
-</body>
-
+    <script src="components/app.js"></script>
+  </body>
 </html>

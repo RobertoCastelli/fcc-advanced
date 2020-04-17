@@ -1,73 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- FONTAWSOME -->
-    <script src="https://kit.fontawesome.com/81b668545a.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/81b668545a.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Telephone validator</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <audio id="zip" src="sound/zip.wav"></audio>
     <div class="container">
-        <header>
-            <img src="img/bg.jpg" alt="img-header">
-            <fieldset>
-                <legend>TELEPHONE VALIDATOR</legend>
-                <div class="content">
-                    <p>The user may fill out the form field any way they choose as long as it has the format of a valid US number. The following are examples of valid formats for US numbers (refer to the tests below for other variants):</p>
-                    <ul>
-                        <li>555-555-5555</li>
-                        <li>(555)555-5555</li>
-                        <li>(555) 555-5555</li>
-                        <li>555 555 5555</li>
-                        <li>5555555555</li>
-                        <li>1 555 555 5555</li>         
-                    </ul>
-                    <p>For this challenge you will be presented with a string such as 800-692-7753 or 8oo-six427676;laskdjf. Your job is to validate or reject the US phone number based on any combination of the formats provided above.</p> 
-                    <p>The area code is required. If the country code is provided, you must confirm that the country code is 1.</p>
-                    <p>Return true if the string is a valid US phone number; otherwise return false.</p>
-                    
-                </div>
-            </fieldset>
-        </header>
+      <header>
+        <img src="img/bg.jpg" alt="img-header" />
+        <fieldset>
+          <legend>TELEPHONE VALIDATOR</legend>
+          <div class="content">
+            <p>
+              The user may fill out the form field any way they choose as long
+              as it has the format of a valid US number. The following are
+              examples of valid formats for US numbers (refer to the tests below
+              for other variants):
+            </p>
+            <ul>
+              <li>555-555-5555</li>
+              <li>(555)555-5555</li>
+              <li>(555) 555-5555</li>
+              <li>555 555 5555</li>
+              <li>5555555555</li>
+              <li>1 555 555 5555</li>
+            </ul>
+            <p>
+              For this challenge you will be presented with a string such as
+              800-692-7753 or 8oo-six427676;laskdjf. Your job is to validate or
+              reject the US phone number based on any combination of the formats
+              provided above.
+            </p>
+            <p>
+              The area code is required. If the country code is provided, you
+              must confirm that the country code is 1.
+            </p>
+            <p>
+              Return true if the string is a valid US phone number; otherwise
+              return false.
+            </p>
+          </div>
+        </fieldset>
+      </header>
 
-        <section>
+      <!-- <section>
             <input type="text" id="txt_input" placeholder=" insert word">
             <button>Check</button>
             <p id="result"></p>
-        </section>
+        </section> -->
 
-        <section>
-            <button id="btnShow">SHOW CODE</button>
+      <section>
+        <button id="btnShow">SHOW CODE</button>
 
-            <figure id="solution">
-                <figcaption>SOLUTION</figcaption>
-                <pre>
-                    <code id="code"></code>
-                </pre>
-            </figure>
+        <figure id="solution">
+          <figcaption>SOLUTION</figcaption>
+          <pre>
+            <code id="code">
+              STILL WORKING ON IT...              
+            </code>
+          </pre>
+        </figure>
 
-            <button id="btnHome"><a href="index.html"><i class="fas fa-home fa-2x"></i></a></button>
+        <button id="btnHome">
+          <a href="index.html"><i class="fas fa-home fa-2x"></i></a>
+        </button>
+      </section>
 
-        </section>
-
-        <footer>
-            <p>copyright &copy; 2020 Roberto Castelli</p>
-            <p>www.robertocastelli.dev</p>
-        </footer>
+      <footer>
+        <p>copyright &copy; 2020 Roberto Castelli</p>
+        <p>www.robertocastelli.dev</p>
+      </footer>
     </div>
 
-    <script src="app.js"></script>
-
-</body>
-
+    <script src="components/app.js"></script>
+  </body>
 </html>
