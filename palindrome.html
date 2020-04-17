@@ -38,9 +38,11 @@
         </header>
 
         <section>
-            <input type="text" id="txt_input" placeholder=" insert word">
-            <button>Check</button>
-            <p id="result"></p>
+
+            <input type="text" id="input-palindrome" placeholder=" insert word" onfocus="this.value=''">
+            <button id="btn-palindrome">Check</button>
+            <p id="result-palindrome"></p>
+            <p id="spinner"></p>
         </section>
 
         <section>
@@ -49,7 +51,20 @@
             <figure id="solution">
                 <figcaption>SOLUTION</figcaption>
                 <pre>
-                    <code id="code"></code>
+                    <code id="code">
+function palindrome(str) {
+    var check = str.replace(/[\W_]/g, '')
+                .toLowerCase();
+        var strReverse = check.split('')
+                            .reverse()
+                            .join('');
+
+        if (strReverse === check){
+            return true;
+        } else {
+            return false;
+        }          
+                    </code>
                 </pre>
             </figure>
 

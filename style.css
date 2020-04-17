@@ -1,105 +1,102 @@
 body {
-    background-color: #EFE4C0;
-    text-align: center;
+  background-color: #efe4c0;
+  text-align: center;
 }
 
-a{
-    all: unset;
-    cursor: pointer;
+a {
+  all: unset;
+  cursor: pointer;
 }
 
 .container {
-    max-width: 400px;
-    margin: auto;
-    font-family: monospace;
-    padding: 10px 10px;
-    color: #35485e;
+  max-width: 400px;
+  margin: auto;
+  font-family: monospace;
+  padding: 10px 10px;
+  color: #35485e;
 }
 
 .content {
-    text-align: start;
+  text-align: start;
 }
 
 button {
-    margin: 10px auto;
-    padding: 5px 5px;
-    color: #35485e;
-    background: none;
-    outline: none;
-    cursor: pointer;
+  margin: 10px auto;
+  padding: 5px 5px;
+  color: #35485e;
+  background: none;
+  outline: none;
+  cursor: pointer;
 }
 
 #btnTop,
 #btnHome {
-    border: none;
-    display: block;
+  border: none;
+  display: block;
 }
 
 #btnTop:active,
 #btnHome:active {
-    transform: scale(1.2);
-    color: teal;
-   
+  transform: scale(1.2);
+  color: teal;
 }
 
 h2,
 footer,
 fieldset {
-   letter-spacing: 0.08em;
-   margin: 20px auto;
+  letter-spacing: 0.08em;
+  margin: 20px auto;
 }
 
 legend {
-    font-size: large;
+  font-size: large;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 ol,
-#description{
-    line-height: 20px;
-    text-align: start;
+#description {
+  line-height: 20px;
+  text-align: start;
 }
 
 li:hover {
-    color: black;
-    transform: translate(5px)
+  color: black;
+  transform: translate(5px);
 }
 
 li:active {
-    transform: scaleZ(1.5);
-    color: teal;
+  transform: scaleZ(1.5);
+  color: teal;
 }
 
 figure {
-    background-color: rgb(0, 0, 0, 0.8);
-    color: white;
-    margin: auto;
-    padding: 5px 5px;
-    display: none;
-    animation: fadeIn 1s ease-in-out;
+  background-color: rgb(0, 0, 0, 0.8);
+  color: white;
+  margin: auto;
+  padding: 5px 5px;
+  display: none;
+  animation: fadeIn 1s ease-in-out;
 }
 
 @keyframes fadeIn {
-    0% {
-        display: none;
-        opacity: 0;
-    }
-    100% {
-        display: block;
-        opacity: 1;
-    }
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
 }
 
 figcaption {
-    font-size: large;
-    font-weight: bold;
+  font-size: large;
+  font-weight: bold;
 }
 
 pre {
-    text-align: start;
+  text-align: start;
 }
-
-
